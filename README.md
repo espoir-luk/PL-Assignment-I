@@ -23,3 +23,39 @@
 ---
 # Step 2: Database Schema & ER Diagram
 The following three tables were created to store the necessary customer, product, and transaction data.
+
+---
+**CREATING TABLES (DDL)**
+
+![creating customer table](./customers.PNG) 
+
+![creating products table](./products.PNG) 
+
+![creating transactions table](./Transactions.PNG) 
+
+---
+**INSERTING DATA INTO TABLES (DML)**
+
+![](./inserting%20into%20customers.PNG) 
+
+![](./inserting%20into%20products.PNG) 
+
+![](./inserting%20into%20transactions.PNG) 
+
+# 2. Entity-Relationship Model
+The transactions table links customers and products, representing a many-to-many relationship via Foreign Keys.
+
+---
+![](./customer%20model.PNG) 
+
+![](./products%20model.PNG) 
+
+![](./Transactions%20model.PNG) 
+
+---
+# Step 4: Window Functions Implementation & Analysis
+
+**1. Ranking Function: RANK()**
+SQL QUERY
+
+
