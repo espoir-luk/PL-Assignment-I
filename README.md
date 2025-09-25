@@ -2,7 +2,7 @@
 # Individual Assignment I: PL/SQL Window Functions Mastery Project
 # Course: Database Development with PL/SQL (INSY 8311)
 
-**Business Problem:** Improve profitability by focusing resources on high-value customers who contribute the most to the company's revenue.
+**Business Problem:** Improve profitability by focusing resources on high-value customers who contribute the most to Company ABC revenue.
 
 ----
 # Step 1: Business Problem & Success Criteria
@@ -105,3 +105,21 @@ SQL QUERY
 And here's the Output
 
 ![](./avgover%20output.PNG)
+
+---
+
+## Summary of Findings
+
+**From RANK() & NTILE():** The top-ranked customer, Jane Smith, contributed significantly more to total revenue than others. The NTILE query further confirmed this by placing her in the top quartile (Quartile 1), clearly separating her from the other customer segments.
+
+**From SUM() OVER():** The running total of revenue showed that Customer ID 1's spending grew consistently with each transaction, indicating strong loyalty. In contrast, other customers had a single transaction, showing a need for engagement strategies to encourage repeat business.
+
+**From LAG()/LEAD():** The time gap analysis revealed that the most valuable customer had a short time between their first and second purchase, while other customers have not yet had a second transaction.
+
+**From AVG() OVER():** The rolling average of transaction revenue provided a more stable view of spending habits, smoothing out the impact of individual high-value purchases and highlighting a consistent upward trend for our most engaged customers.
+
+----
+
+## Recommendations
+
+Company ABC needs to implement a targeted email campaign for customers who have only made one purchase. This campaign should be designed to re-engage them and shorten the time gap between their first and second transactions.
