@@ -123,3 +123,5 @@ And here's the Output
 ## Recommendations
 
 Company ABC needs to implement a targeted email campaign for customers who have only made one purchase. This campaign should be designed to re-engage them and shorten the time gap between their first and second transactions.
+
+# “All sources were properly cited. Implementations and analysis represent original work. No AIgenerated content was copied without attribution or adaptation.”
